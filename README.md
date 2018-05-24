@@ -25,4 +25,4 @@ The software is licensed under the GNU GENERAL PUBLIC LICENSE v3
 
 The design files (KiCad and FreeCAD) for the Field Mill hardware are licensed
 under a [Creative Commons Attribution Share-Alike license](https://creativecommons.org/licenses/by-sa/4.0/), which allows for both
-personal and commercial derivative works, as long as they credit The&nbspOpen&nbspField&nbspMill&nbspProject and release their designs under the same license.
+personal and commercial derivative works, as long as they credit The Open Field Mill Project and release their designs under the same license.
