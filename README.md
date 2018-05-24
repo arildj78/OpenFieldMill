@@ -6,7 +6,7 @@ effectiveness of electrostatic discharge devices and assess the dangers associat
 with static during hoisting operations.
 
 Even though the device is planned to be used for real life measurements, the primary
-objective is to get better understanding of _Electrostatics_ as well as _Electronics Engineering_
+objective is to get a better understanding of _Electrostatics_ as well as _Electronics Engineering_
 while still keeping a tight DIY budget. The project is based
 on a [Field Mill published by James A. Campbell](http://www.precisionstrobe.com/jc/fieldmill/fieldmill.html). 
 
