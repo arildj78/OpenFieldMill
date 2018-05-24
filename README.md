@@ -12,11 +12,18 @@ on a [Field Mill published by James A. Campbell](http://www.precisionstrobe.com/
 
 <img src="/oshw.svg" alt="Open Source Hardware" width="25%">
 
+## Features
+* Measurement of static electric fields from 0 to 1 MV/m
+* Measurement of static potential from 0 to 100 kV
+* Measurement of object charging current from 0 to 200 μA
+* Datalogger for all measurements
+
 ## Resources
 * [8.02x MIT Physics II Lecture 1 through 9 - Lectures by Walter Lewin](https://www.youtube.com/watch?v=rtlJoXxlSFE&list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j)
 * [EEVblog by Dave Jones](https://www.eevblog.com/episodes/)
 
 ## Attribution
+This design is based on the work listed below.
 * [Field Mill by James A. Campbell](http://www.precisionstrobe.com/jc/fieldmill/fieldmill.html)
 * [Arduino](http://arduino.cc)
 
