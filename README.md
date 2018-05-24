@@ -5,7 +5,7 @@ used to make high quality measurements on a full size helicopter to assess the
 effectiveness of electrostatic discarge devices and assess the dangers associated
 with static during hoisting operations.
 
-Even though the device is planned to do real life measurements, the primary
+Even though the device is planned to be used in real life measurements, the primary
 objective is to gain better knowledge of _Electrostatics_ as well as _Electronics Engineering_
 while still keeping a tight DIY budget. The project is based
 on a [Field Mill published by James A. Campbell](http://www.precisionstrobe.com/jc/fieldmill/fieldmill.html). 
