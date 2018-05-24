@@ -4,7 +4,7 @@ Electrostatic measurement device with data logging capability
 The Open Field Mill project is an open source project to created to study and
 measure static electric charge. 
 
-![Open Source Hardware](/oshw.svg){:height="200px" width="100px"}
+<img src="/oshw.svg" alt="Open Source Hardware" width="25%">
 
 
 
