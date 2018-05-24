@@ -1,6 +1,6 @@
 # The Open Field Mill Project
 The Open Field Mill Project is an open source project created to study and
-measure the buildup of electrostatic charge. Ultimately the device will be
+measure the build up of electrostatic charge. Ultimately the device will be
 used to make high quality measurements on a full-size helicopter to assess the
 effectiveness of electrostatic discharge devices and assess the dangers associated
 with static during hoisting operations.
