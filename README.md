@@ -1,4 +1,5 @@
-#The Open Field Mill Project
+# The Open Field Mill Project
+
 Electrostatic measurement device with data logging capability
 
 The Open Field Mill project is an open source project to created to study and
@@ -8,9 +9,9 @@ measure static electric charge.
 
 
 
-##Attribution
+## Attribution
 
-##License
+## License
 The software is licensed under the GNU GENERAL PUBLIC LICENSE v3
 
 The design files (KiCad and FreeCAD) for the Field Mill hardware are licensed
