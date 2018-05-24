@@ -6,17 +6,21 @@ effectiveness of electrostatic discarge devices and assess the dangers associate
 with static during hoisting operations.
 
 Even though the device is planned to do real life measurements, the primary
-objective is to gain better knowledge of Electrostatics and Electronics Engineering
-while still keeping a tight DIY budget. The project is open source and is based
-on a [Field Mill design by James A. Campbell](http://www.precisionstrobe.com/jc/fieldmill/fieldmill.html). 
+objective is to gain better knowledge of _Electrostatics_ as well as _Electronics Engineering_
+while still keeping a tight DIY budget. The project is based
+on a [Field Mill published by James A. Campbell](http://www.precisionstrobe.com/jc/fieldmill/fieldmill.html). 
 
 <img src="/oshw.svg" alt="Open Source Hardware" width="25%">
 
 
+## Resources
+[8.02x MIT Physics II Lecture 1 through 9 - Lecture by Walter Lewin](https://www.youtube.com/watch?v=rtlJoXxlSFE&list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j)
+[EEVblog by Dave Jones](https://www.eevblog.com/episodes/)
 
 ## Attribution
 [Field Mill by James A. Campbell](http://www.precisionstrobe.com/jc/fieldmill/fieldmill.html)
 [Arduino](http://arduino.cc)
+
 
 ## License
 The software is licensed under the GNU GENERAL PUBLIC LICENSE v3
