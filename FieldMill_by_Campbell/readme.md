@@ -18,21 +18,21 @@ This page describes the construction of an electric field mill. This is a device
 2. Plot of Clock and Signal Phase
 
 ### Web References:
-1. Scientific American Amateur Scientist Field Mill Project
-2. Scientific American Amateur Scientist Field Mill Project Discussion
-3. Lightning Detectors
-4. NASA/Marshall Space Flight Center Airborne Electric Field Mill
-5. GP-1 Lightning Locator
-6. University of Florida Lightning Research Group
-7. Experimental E-Field Data
-8. Global Atmospherics, Inc.
-9. Atmospheric Electricity HomePage
-10. The Earth's Electrical Environment - E.P. Kreider 1986
-11. Development of a Lightning Warning System -- Adam Milner
-12. Near-real time lightning tracking: Global Atmospherics, Inc. 
-13. Intellicast Lighting
-14. Lightning strike triggered by a flying airplane
-15. Lightningtalks.com
+[Scientific American Amateur Scientist Field Mill Project](http://www.sciam.com/1999/0799issue/0799amsci.html)  
+[Scientific American Amateur Scientist Field Mill Project Discussion](http://web2.thesphere.com/SAS/WebX.cgi?128@^1658496@.ee6c3fd/0)  
+[Lightning Detectors](http://www.techlib.com/electronics/lightning.html)  
+[[NASA/Marshall Space Flight Center Airborne Electric Field Mill](http://www.tstorm.com/lplws.html)  
+[GP-1 Lightning Locator](http://bub2.meteo.psu.edu/default.htm)  
+[University of Florida Lightning Research Group](http://www.lightning.ece.ufl.edu/)  
+[Experimental E-Field Data](http://weather.ou.edu/~fgallag/efield/index.shtml)  
+[Global Atmospherics, Inc.](http://www.glatmos.com/products/local/efm.html)  
+[Atmospheric Electricity HomePage](http://ae.nsstc.uah.edu/)  
+[The Earth's Electrical Environment - E.P. Kreider 1986](http://www.nap.edu/books/0309036801/html/30.html)  
+[Development of a Lightning Warning System -- Adam Milner](http://bat.nmt.edu/milner/milner.html)  
+[Near-real time lightning tracking: Global Atmospherics, Inc. ](http://www.lightningstorm.com/lightningstorm/gpg/lex1/mapdisplay_free.jsp)  
+[Intellicast Lighting](http://www.intellicast.com/LocalWeather/World/UnitedStates/NationalLightning/)  
+[Lightning strike triggered by a flying airplane](http://lightning.pwr.eng.osaka-u.ac.jp/lrg/temp/plane.html)  
+[Lightningtalks.com](http://www.lightningtalks.com/)  
 
 ### Print References:
 1. Martin A. Uman - Lightning, McGraw-Hill Book Company, New York (1969), 264 pages. Russian translation (1972), revised edition, Dover, New York (1984). (Available at Borders)
