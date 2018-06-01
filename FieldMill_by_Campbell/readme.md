@@ -87,7 +87,7 @@ Fabricate the Circuit board as shown. Pay careful attention to grounding and pow
 14. ~~[Lightning strike triggered by a flying airplane](http://lightning.pwr.eng.osaka-u.ac.jp/lrg/temp/plane.html)~~
 15. ~~[Lightningtalks.com](http://www.lightningtalks.com/)~~
 
-## Print References
+### Print References
 1. Martin A. Uman - Lightning, McGraw-Hill Book Company, New York (1969), 264 pages. Russian translation (1972), revised edition, Dover, New York (1984). (Available at Borders)
 
 
