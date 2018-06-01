@@ -21,7 +21,7 @@ This page describes the construction of an electric field mill. This is a device
 * [Scientific American Amateur Scientist Field Mill Project](http://www.sciam.com/1999/0799issue/0799amsci.html)  
 * [Scientific American Amateur Scientist Field Mill Project Discussion](http://web2.thesphere.com/SAS/WebX.cgi?128@^1658496@.ee6c3fd/0)  
 * [Lightning Detectors](http://www.techlib.com/electronics/lightning.html)  
-* * [[NASA/Marshall Space Flight Center Airborne Electric Field Mill](http://www.tstorm.com/lplws.html)  
+* [[NASA/Marshall Space Flight Center Airborne Electric Field Mill](http://www.tstorm.com/lplws.html)  
 * [GP-1 Lightning Locator](http://bub2.meteo.psu.edu/default.htm)  
 * [University of Florida Lightning Research Group](http://www.lightning.ece.ufl.edu/)  
 * [Experimental E-Field Data](http://weather.ou.edu/~fgallag/efield/index.shtml)  
