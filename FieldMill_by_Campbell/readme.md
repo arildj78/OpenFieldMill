@@ -2,16 +2,16 @@
 This page describes the construction of an electric field mill. This is a device to measure the electric field strength on earth due to the static electric field and the charge of clouds passing overhead. It can also be used to investigate static electricity effects. The body and chopper of the field mill are fabricated from a 4 inch diameter duct fan. The signal conditioning electronics uses a chopper blade position detector and a synchronous detector to reduce noise and recover the field sign (positive or negative) as well as magnitude (strength in V/m).
 
 ### Photographs:
-1. Top View 
-2. Sense Plate Detail
-3. Sense Plate Bracket
-4. Sense Plate Bracket Detail With Spacer
-5. Position Detector Mounting Detail
-6. Bottom View
-7. Side View
-8. Board Backside, Shield Cover Off
-9. Board Topside, Shield Cover Off
-10. Fan Blades, Before Modification
+1. [Top View](#top-view)
+2. [Sense Plate Detail](#sense-plate-detail)
+3. [Sense Plate Bracket](#sense-plate-bracket)
+4. [Sense Plate Bracket Detail With Spacer](#sense-plate-bracket-detail-with-spacer)
+5. [Position Detector Mounting Detail](#position-detector-mounting-detail)
+6. [Bottom View](#bottom-view)
+7. [Side View](#side-view)
+8. [Board Backside, Shield Cover Off](#board-backside-shield-cover-off)
+9. [Board Topside, Shield Cover Off](#board-topside-shield-cover-off)
+10. [Fan Blades, Before Modification](#fan-blades-before-modification)
 
 ### Figures:
 1. Circuit Schematic
@@ -42,11 +42,9 @@ This page describes the construction of an electric field mill. This is a device
 The strength of the electric field could be measured, in principle, by placing a volt meter across plates placed some distance apart. However, because the meter will have some input impedance (10 Meg typically), any voltage induced on the plates will quickly drain away, and would not be useful for measuring the static field. To make measurements of the static field, the chopper technique is used. The chopper blade is arranged over the Sense Plate and rotated so that it periodically shields, and exposes the Sense Plate to the electric field. To properly do this, the Rotor must be grounded. The Sense Plate is grounded through a transconductance amplifier, which converts the Sense Plate's ground current to a voltage. As the Sense Plate is exposed to the Field, the field induces ground currents as it attracts or repels charge from the Sense Plate. As the plate is shielded from the field, the induced charge drains away. So the chopper induces an AC ground current which is proportional to electric field strength. 
 This AC signal could then be rectified to drive a DC volt meter or be plotted on a scope. However, by doing this only the magnitude of the field, not the sign (positive of negative) would be measured. Also, any noise in the signal would also affect the output. The signal conditioning for this Field Mill uses a synchronous demodulation technique to preserve field sign information and reduce noise. 
 
-
 It works like this: The blade position is measured using an LED and photo transistor. The Position Sensor clock signal is used to effectively amplify the AC signal from the Sense Plate amplifier by either +1 or -1, depending on Rotor blade position. This has the effect of synchronously rectifying the AC signal, preserving sign. This rectified signal is then low pass filtered to remove ripple. Alternatively, this circuit function can be thought of as the mixing of two identical frequencies, resulting in output with frequency content at DC, and twice the input frequency. The low pass filter then passes only the DC component. This line of thought will also show how noise at frequencies other that the position clock frequency are rejected. 
 
 ## Field Mill Fabrication Notes: 
-
 ### Chopper Blades
 Get a 4 inch diameter duct fan with fan blades as shown. Remove the fan and break off every other fan blade. Flatten the remaining blades in a vise. 
 
@@ -91,23 +89,11 @@ The output of the AC amplifier is connected to an inverter stage. Two analog swi
 The output of the low pass filter is applied to a non-inverting DC amplifier with an adjustable resister in the feed back for calibration. Calibrate the instrument by placing a sheet of metal 10 cm above the Ground Plate. Put an adjustable power supply across this plate and the housing ground. Change this applied voltage from 0 V to 20V (200 V/m field strength) and note output voltage change. Adjust the resistor until this produces 200 mV of change (using the 1 Meg resister setting on the first amplifier). The output voltage sensitivity will then be 1 V / (kV/m). Note: There will be some level of background field while you do this, so be sure to note the CHANGE in output while changing the applied field.
 
 ## Circuit Board Fabrication Notes 
-
 Fabricate the Circuit board as shown. Pay careful attention to grounding and power distribution. Using terminal blocks is most helpful during trouble-shooting. It may be helpful to reposition the Position Detector terminal block further away from the Sense Plate input terminal block for reasons discussed below. 
 
 **Note**: Since this circuit has a very sensitive input stage, and uses synchronous demodulation , it becomes very sensitive to noise generated by the position detector. The shield around the first amplifier, and the coax shield on the wire going to the sense plate are mostly necessary to prevent coupling of the Position Detector clock signal into the amplifier. I also placed the photo transistor end of the Photo Detector on top, furthest from the Sense Plate. The Rotor may also provide some level of shielding as well. Although there is still some low level of coupling, these steps brought it under control (<50mV at ac output). Perhaps I could try wrapping some copper tape around the photo transistor and grounding it. You can characterize the level of coupling by observing the AC output signal while disconnecting the photo transistor at the terminal block. Before adding the shielding and coax, this test showed several volts at the AC output!
 
-### Photographs:
-1. Top View 
-2. Sense Plate Detail
-3. Sense Plate Bracket
-4. Sense Plate Bracket Detail With Spacer
-5. Position Detector Mounting Detail
-6. Bottom View
-7. Side View
-8. Board Backside, Shield Cover Off
-9. Board Topside, Shield Cover Off
-10. Fan Blades, Before Modification
-
+## Fabrication details
 ### Top View
 ![Top View](Top_View.jpg)
 
