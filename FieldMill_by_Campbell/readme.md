@@ -1,17 +1,6 @@
 # Electric Field Mill Fabrication
-This page describes the construction of an electric field mill. This is a device to measure the electric field strength on earth due to the static electric field and the charge of clouds passing overhead. It can also be used to investigate static electricity effects. The body and chopper of the field mill are fabricated from a 4 inch diameter duct fan. The signal conditioning electronics uses a chopper blade position detector and a synchronous detector to reduce noise and recover the field sign (positive or negative) as well as magnitude (strength in V/m).
-
-### Photographs
-1. [Top View](#top-view)
-2. [Sense Plate Detail](#sense-plate-detail)
-3. [Sense Plate Bracket](#sense-plate-bracket)
-4. [Sense Plate Bracket Detail With Spacer](#sense-plate-bracket-detail-with-spacer)
-5. [Position Detector Mounting Detail](#position-detector-mounting-detail)
-6. [Bottom View](#bottom-view)
-7. [Side View](#side-view)
-8. [Board Backside, Shield Cover Off](#board-backside-shield-cover-off)
-9. [Board Topside, Shield Cover Off](#board-topside-shield-cover-off)
-10. [Fan Blades, Before Modification](#fan-blades-before-modification)
+This page describes the construction of an electric field mill. This is a device to measure the electric field strength on earth due to the static electric field and the charge of clouds passing overhead. It can also be used to investigate static electricity effects. The body and chopper of the field mill are fabricated from a 4 inch diameter duct fan. The signal conditioning electronics uses a chopper blade position detector and a synchronous detector to reduce noise and recover the field sign (positive or negative) as well as magnitude (strength in V/m).  
+![Top View](Top_View.jpg)
 
 ### Figures
 1. Circuit Schematic
@@ -51,24 +40,30 @@ Get a 4 inch diameter duct fan with fan blades as shown. Remove the fan and brea
 I cut a shield from brass and mounted it over the motor too shield the sensor from motor 60 Hz. I don't know how necessary this really was. 
 
 ### Sensor Plate Mounting Brackets
-Cut 3 stripes of brass (about .5 x 2 inches), fold about in half and drill. Drill three holes so that the ledge is about 1.5 inches down from the top. Attach the plastic Sensor Plate hardware to the brackets and mount the brackets inside the housing as shown. 
+Cut 3 stripes of brass (about .5 x 2 inches), fold about in half and drill. Drill three holes so that the ledge is about 1.5 inches down from the top. Attach the plastic Sensor Plate hardware to the brackets and mount the brackets inside the housing as shown.  
+![Sense Plate Bracket](Bracket_Detail.jpg)
 
 ### Motor Shaft
-Drill a hole (the same size at the motor shaft.) clean through a piece of .5 inch diameter delrin. Drill and tap the set screws. Cut a piece of stock the same size as the shaft and mount as shown . Note: My goal was initially to insolate the chopper rotor, but then found grounding was required. So you may be able to fabricate the Mill without having to extend the shaft like this. I did have to cut the end off the motor shaft to fit the extender back far enough, and did end up with some wobble on the extended shaft You could move the whole motor forward as well if needed. 
+Drill a hole (the same size at the motor shaft.) clean through a piece of .5 inch diameter delrin. Drill and tap the set screws. Cut a piece of stock the same size as the shaft and mount as shown . Note: My goal was initially to insolate the chopper rotor, but then found grounding was required. So you may be able to fabricate the Mill without having to extend the shaft like this. I did have to cut the end off the motor shaft to fit the extender back far enough, and did end up with some wobble on the extended shaft You could move the whole motor forward as well if needed.  
+![Sense Plate Bracket Detail With Spacer](Bracket_Detail2.jpg)
 
 ### Sensor plate and Ground Plate
-Lay the Chopper blades on a sheet of .015 thick brass. Trace the outline of the chopper plate using a scribe and cut it out using tin snipes. Drill the center and cut to size using a nibble tool. Scribe a circle on a piece of brass and cut it out. Flatten both pieces (use a tap hammer on a flat metal surface) and cut out the center hole. Tap the two pieces together and drill 5 holes around them as shown. Assemble the sensor plate/ground plate using plastic hardware and spacers. Transfer the position of the mounting bracket to the Ground Plate by placing a blob of pink finger nail polish (thanks Anne) on the end of each screw and gently setting the Ground Plate down on it centered. Let the polish dry and drill the three mounting holes in the Ground Plate . 
+Lay the Chopper blades on a sheet of .015 thick brass. Trace the outline of the chopper plate using a scribe and cut it out using tin snipes. Drill the center and cut to size using a nibble tool. Scribe a circle on a piece of brass and cut it out. Flatten both pieces (use a tap hammer on a flat metal surface) and cut out the center hole. Tap the two pieces together and drill 5 holes around them as shown. Assemble the sensor plate/ground plate using plastic hardware and spacers. Transfer the position of the mounting bracket to the Ground Plate by placing a blob of pink finger nail polish (thanks Anne) on the end of each screw and gently setting the Ground Plate down on it centered. Let the polish dry and drill the three mounting holes in the Ground Plate.  
+![Sense Plate Detail](Sense_Plate.jpg)
 
 ### Position Detector
-Get a photo interrupter detector as shown at The Shack. Position it right at the edge of the Sense Plate (you may need to cut a corner off the Sense Plate. Mark it's position and remove the Rotor and Sense Plate Assembly. Drill the Position Detector mounting holes and nibble the center out. Also drill holes for the wires leading to the Sense Plate Assembly. Mount the Position Detector and reassemble the Sense Plate and Rotor. Adjust the Rotor Height so the blades don't hit in the Position Detector. Check it upside down also, as there is some end play in the motor shaft. 
+Get a photo interrupter detector as shown at The Shack. Position it right at the edge of the Sense Plate (you may need to cut a corner off the Sense Plate. Mark it's position and remove the Rotor and Sense Plate Assembly. Drill the Position Detector mounting holes and nibble the center out. Also drill holes for the wires leading to the Sense Plate Assembly. Mount the Position Detector and reassemble the Sense Plate and Rotor. Adjust the Rotor Height so the blades don't hit in the Position Detector. Check it upside down also, as there is some end play in the motor shaft.  
+![Position Detector Mounting Detail](PosDet_Detail.jpg)
 
 ### Rotor Ground
 Cut a strip of brass and fold it and mount it as shown in the Top View . As we expected, grounding the Chopper Rotor proved to be necessary. When the Rotor is left floating, large static outputs could be generated by depositing charge on the Rotor. Grounding the Rotor eliminated this source of offset drift. 
 
 ### Final Assembly
 Drill mounting holes for the circuit board and mount it. Drill hole for off/on switch and mount the Power Supply in the bottom as shown in the Bottom View . Attach the Ground Plate and Case Ground to the Circuit Board. Attach the Position detector using coax for the photo transistor output. Attach the Sense Plate using coax grounded at the Circuit Board. Test. 
-Circuit Description and Notes 
 
+
+## Circuit Description and Notes 
+![Circuit Schematic](Circuit_Sch.jpg)
 ### Power Supply
 The circuit operates from a split supply (both +8 V and -8 V). I used a 12 DC wall transformer, a 7808 three pin regulator for the positive supply, and an ICL7660 voltage converter to generate the negative supply (or a Linear Tech LT1044 will work, and it is available in a DIP package from Digikey). You could also just use a transformer with a center tap an build a positive and negative supply. 
 
@@ -79,7 +74,8 @@ I used the AD795 as inherited from Shawn Carlson's article, but really any amp s
 I partitioned the gain into 2 stages of 30 to get an overall voltage gain of about 1000. This could be done with a single amplifier, but input offset specifications should be looked into to avoid a large output offset. The AC coupling corner frequency for each is about 150 Hz, and both amplifiers are also rolled off at around 1 kHz. 
 
 ### Position Detector Clock Generator
-The photo transistor is setup to switch between the positive and negative supply voltages. This is the level required to control the 14066 quad analog switch. One of the anolog switch stages is setup as an inverter to generate a complimentary clock. 
+The photo transistor is setup to switch between the positive and negative supply voltages. This is the level required to control the 14066 quad analog switch. One of the anolog switch stages is setup as an inverter to generate a complimentary clock.  
+![Plot of Clock and Signal Phase](Clock_Vo.gif)
 
 ### Synchronous Demodulator
 The output of the AC amplifier is connected to an inverter stage. Two analog switches are used to alternately apply the inverted, and non-inverted output to the input of the low pass filter. The low pass filter is configured with a corner frequency of 7 Hz. 
@@ -92,22 +88,8 @@ Fabricate the Circuit board as shown. Pay careful attention to grounding and pow
 
 **Note**: Since this circuit has a very sensitive input stage, and uses synchronous demodulation , it becomes very sensitive to noise generated by the position detector. The shield around the first amplifier, and the coax shield on the wire going to the sense plate are mostly necessary to prevent coupling of the Position Detector clock signal into the amplifier. I also placed the photo transistor end of the Photo Detector on top, furthest from the Sense Plate. The Rotor may also provide some level of shielding as well. Although there is still some low level of coupling, these steps brought it under control (<50mV at ac output). Perhaps I could try wrapping some copper tape around the photo transistor and grounding it. You can characterize the level of coupling by observing the AC output signal while disconnecting the photo transistor at the terminal block. Before adding the shielding and coax, this test showed several volts at the AC output!
 
-## Fabrication details
-### Top View
-![Top View](Top_View.jpg)
 
-### Sense Plate Detail
-![Sense Plate Detail](Sense_Plate.jpg)
-
-### Sense Plate Bracket
-![Sense Plate Bracket](Bracket_Detail.jpg)
-
-### Sense Plate Bracket Detail With Spacer
-![Sense Plate Bracket Detail With Spacer](Bracket_Detail2.jpg)
-
-### Position Detector Mounting Detail
-![Position Detector Mounting Detail](PosDet_Detail.jpg)
-
+## Additional photos
 ### Bottom View
 ![Bottom View](Bottom_View.jpg)
 
