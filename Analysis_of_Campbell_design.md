@@ -49,8 +49,8 @@ RC Low pass filter between rectifier and calibration amplifier
 * DC level  @ 110ms = (635.12mV + 624.87mV) / 2 = 630,00mV
 * 99.3% of 634.45mV = 630,01mV
 
-![RC charging](rc2.gif)
-[Graphic](https://www.electronics-tutorials.ws/rc/rc_1.html) by [Electronics Tutorials](www.electronics-tutorials.ws)
+![RC charging](rc2.gif)  
+([Graphic](https://www.electronics-tutorials.ws/rc/rc_1.html) by [Electronics Tutorials](www.electronics-tutorials.ws))
 
 | Time Constant       | Voltage  |
 |---------------------|----------|
