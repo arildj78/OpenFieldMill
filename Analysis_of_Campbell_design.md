@@ -43,7 +43,7 @@ RC Low pass filter between rectifier and calibration amplifier
 * DC level = 634.45mV  (RMS=0.707*Vp Avg=0.637*Vp)
 * Corner freq 7.2Hz. Roll off 20dB/decade
 
-### Capacitor charging
+### Capacitor charging in the filter
 * Time Constant = R*C = 22k * 1u = 22ms
 * 5T = 110ms
 * DC level  @ 110ms = (635.12mV + 624.87mV) / 2 = 630,00mV
@@ -64,5 +64,44 @@ RC Low pass filter between rectifier and calibration amplifier
 
 
 
+## Calibration amplifier
+Amplifier with gain from 1 to 2 (0dB to 6dB) to calibrate output. Nominal calibration is 1 V / (kV/m) with 1 Meg input setting.
 
-from 1 to 2 (0dB to 6dB)            
+## System transfer function
+We assume that calibration gain is set at mid-range - equal to 1.5 (3.52dB).
+
+### Antenna current amplitude 1.713nA / (kV/m)
+* Out: _1.713nA @ 300Hz_ 
+
+### Input stage
+Output 0.957 V/μA ∠-16.8° @ 300Hz
+* In: _1.713nA_
+* Out: _1.64 mVp_
+
+
+### AC Amplifier stage
+* Gain 640.9 (56.14dB) ∠19.2° @ 300Hz total
+* In: _1.64 mVp_
+* Out: _1,05Vp_
+
+
+### Rectifier with low pass filter
+* Input signal: 1V amplitude @ 300Hz
+* Output swing: 639.5mV to 629.4mV 1000ms after power up
+* DC level = 634.45mV  (RMS=0.707*Vp Avg=0.637*Vp)
+* In: _1,05Vp_
+* Out: _0,66 VDC_
+
+
+### Calibration stage
+* Gain 1.5 (3.52dB) @ DC
+* In: _0,66 VDC_
+* Out: _0,997VDC_ (ripple .952 to 1.042 @ 600Hz)
+
+
+### Entire System
+* In: _1.713nA_
+* Out: _1Vp_
+1.00V / (kV/m)
+
+The rectifier used in the simulation is probably more effective than the one used in Campbell's design. Based on this we can assume a value closer to 2nA / (kV/m) on his electric field antenna.
