@@ -45,10 +45,10 @@ RC Low pass filter between rectifier and calibration amplifier
 * Corner freq 7.2Hz. Roll off 20dB/decade
 
 ### Capacitor charging
-Time Constant = R*C = 22k * 1u = 22ms
-5T = 110ms
-DC level  @ 110ms = (635.12mV + 624.87mV) / 2 = 630,00mV
-99.3% of 634.45mV = 630,01mV
+* Time Constant = R*C = 22k * 1u = 22ms
+* 5T = 110ms
+* DC level  @ 110ms = (635.12mV + 624.87mV) / 2 = 630,00mV
+* 99.3% of 634.45mV = 630,01mV
 
 ![RC charging](rc2.gif)
 
