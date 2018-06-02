@@ -50,7 +50,7 @@ RC Low pass filter between rectifier and calibration amplifier
 * 99.3% of 634.45mV = 630,01mV
 
 ![RC charging](rc2.gif)  
-([Graphic](https://www.electronics-tutorials.ws/rc/rc_1.html) by [Electronics Tutorials](www.electronics-tutorials.ws))
+([Graphic](https://www.electronics-tutorials.ws/rc/rc_1.html) by [Electronics Tutorials](http://www.electronics-tutorials.ws))
 
 | Time Constant       | Voltage  |
 |---------------------|----------|
