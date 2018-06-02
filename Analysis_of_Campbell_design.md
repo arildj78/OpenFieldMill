@@ -38,10 +38,9 @@ Output 0.983 V/10μA ∠-10.7° @ 300Hz
 ## RC Low pass filter
 RC Low pass filter between rectifier and calibration amplifier
 * Input signal: 1V amplitude @ 300Hz
-* Output swing: 639.5mV to 629.4mV
-* Output amplitude = 5,05mV (10.1mV p-p)
+* Output swing: 639.5mV to 629.4mV 1000ms after power up
+* Output ripple amplitude = 5,05mV (10.1mV p-p) @ 600Hz
 * DC level = 634.45mV  (RMS=0.707*Vp Avg=0.637*Vp)
-
 * Corner freq 7.2Hz. Roll off 20dB/decade
 
 ### Capacitor charging
@@ -51,6 +50,7 @@ RC Low pass filter between rectifier and calibration amplifier
 * 99.3% of 634.45mV = 630,01mV
 
 ![RC charging](rc2.gif)
+[Graphic](https://www.electronics-tutorials.ws/rc/rc_1.html) by [Electronics Tutorials](www.electronics-tutorials.ws)
 
 | Time Constant       | Voltage  |
 |---------------------|----------|
