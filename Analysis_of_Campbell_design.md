@@ -50,7 +50,7 @@ RC Low pass filter between rectifier and calibration amplifier
 * 99.3% of 634.45mV = 630,01mV
 
 ![RC charging](rc2.gif)  
-([Graphic](https://www.electronics-tutorials.ws/rc/rc_1.html) by [Electronics Tutorials](www.electronics-tutorials.ws))
+([Graphic](https://www.electronics-tutorials.ws/rc/rc_1.html) by [Electronics Tutorials](http://www.electronics-tutorials.ws))
 
 | Time Constant       | Voltage  |
 |---------------------|----------|
@@ -71,7 +71,7 @@ Amplifier with gain from 1 to 2 (0dB to 6dB) to calibrate output. Nominal calibr
 We assume that calibration gain is set at mid-range - equal to 1.5 (3.52dB).
 
 ### Antenna current amplitude 1.713nA / (kV/m)
-* Out: _1.713nA @ 300Hz_ 
+* Out: _1.713nA @ 300Hz_
 
 ### Input stage
 Output 0.957 V/μA ∠-16.8° @ 300Hz
@@ -105,3 +105,4 @@ Output 0.957 V/μA ∠-16.8° @ 300Hz
 1.00V / (kV/m)
 
 The rectifier used in the simulation is probably more effective than the one used in Campbell's design. Based on this we can assume a value closer to 2nA / (kV/m) on his electric field antenna.
+from 1 to 2 (0dB to 6dB)            
